@@ -5,15 +5,24 @@
   padding: 0;
   width: 15em;
 }
-
+h2{
+  color: #EEE;
+}
 input {
   display: block;
-  width: 100%;
+  width: 50%;
   padding: .5rem;
-  margin: 1rem 0;
   box-sizing: border-box;
+  margin-right: 10px;
 }
-
+label{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: #e6e6e6;
+}
+.box{
+  position: relative;
+  display: flex;
+}
 .heroes li {
   position: relative;
   cursor: pointer;
@@ -63,9 +72,13 @@ input {
 }
 
 .add-button {
- padding: .5rem 1.5rem;
- font-size: 1rem;
- margin-bottom: 2rem;
+ position: relative;
+ padding: .2rem;
+ width: 100px;
+ border: none;
+ background-color: #375b6d;
+ color: #e6e6e6;
+ margin-top: 8px;
 }
 
 .add-button:hover {
@@ -77,14 +90,27 @@ button.delete {
   position: absolute;
   left: 210px;
   top: 5px;
-  background-color: white;
-  color:  #525252;
+  background-color: rgb(141, 33, 38);
+  color:  #fafafa;
   font-size: 1.1rem;
   margin: 0;
   padding: 1px 10px 3px 10px;
+  border: none;
 }
 
 button.delete:hover {
   background-color: #525252;
   color: white;
+}
+.add{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+.details{
+  width: 100%;
+  margin-left: 2cm;
+}
+.list{
+  align-self: flex-start;
 }

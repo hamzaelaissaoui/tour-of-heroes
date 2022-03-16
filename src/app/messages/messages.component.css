@@ -1,19 +1,44 @@
 /* MessagesComponent's private CSS styles */
-h2 {
+.bloc{
+  bottom: 0;
+  position: relative;
+  border-top: #42545C 1px solid;
+  width: 100%;
+  background: linear-gradient(to top, rgb(122, 90, 90),black);
+  padding-left: 10px;
+  color: white;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+h3 {
     color: #A80000;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: lighter;
+    border-bottom: #42545C 1px solid;
+    padding-bottom: 5px;
   }
   
   .clear {
-    color: #333;
-    background-color: #eee;
-    margin-bottom: 12px;
-    padding: 1rem;
-    border-radius: 4px;
+    background-color: rgb(18, 10, 66);
+    color: white;
+    margin-bottom: 7px;
+    padding: .3rem;
     font-size: 1rem;
+    border: none;
+    cursor: pointer;
+
   }
   .clear:hover {
     color: white;
     background-color: #42545C;
+  }
+  .messages{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+  }
+  .messages span{
+    position: relative;
+    padding: 8px;
+    margin-bottom: 5px;
+    border-left: 2px solid rgb(0, 199, 123);
   }

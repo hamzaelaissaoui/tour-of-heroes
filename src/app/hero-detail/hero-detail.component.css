@@ -1,18 +1,35 @@
 /* HeroDetailComponent's private CSS styles */
+
+.box{
+  background-color: #324650b2;
+  padding: 10px;
+}
+h2{
+  color: #ffffff;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.id{
+  color: wheat;
+}
 label {
-    color: #435960;
+    color: #ffffff;
     font-weight: bold;
   }
   input {
     font-size: 1em;
-    padding: .5rem;
+    padding: .3rem;
+    border: none;
   }
   button {
     margin-top: 20px;
-    background-color: #eee;
-    padding: 1rem;
+    background-color: rgb(199, 199, 199);
+    padding: .4rem;
     border-radius: 4px;
+    margin-right: 5px;
+    margin-bottom: 10px;
     font-size: 1rem;
+    cursor: pointer;
+    border:none
   }
   button:hover {
     background-color: #cfd8dc;

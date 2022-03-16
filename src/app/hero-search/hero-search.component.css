@@ -14,6 +14,9 @@ label {
     max-width: 600px;
     box-sizing: border-box;
     display: block;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
   }
   
   input:focus {
@@ -33,7 +36,8 @@ label {
     padding: .5rem;
     box-sizing: border-box;
     text-decoration: none;
-    color: black;
+    color: rgb(248, 239, 239);
+    background-color: rgb(27, 30, 32);
   }
   
   .search-result li a:hover {
@@ -44,4 +48,5 @@ label {
   ul.search-result {
     margin-top: 0;
     padding-left: 0;
+    text-align: center;
   }
